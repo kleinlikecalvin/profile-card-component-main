@@ -5,22 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <!--Add Bootstrap-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <!--Link Favicon-->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Profile card component</title>
 
 </head>
 <body>
+  <!--Create container-->
   <div class="container">
+    <!--Start first row which houses the profile pic, name, age, and location-->
     <div class="row">
       <img src="./images/image-victor.jpg" alt="Victor Profile Avatar">
-    </div>
-    <div class="row">
       <h1>
         <span>Victor Crest</span> 26
       </h1>
-      <p>London</p>
-    </div>
+      <p>
+        London
+      </p>
+    </div>     
+    <!--End first row-->
+    <!--Start second row which houses the stats columns-->
     <div class="row">
+      <!--Followers column start-->
       <div class="col">
         <div class="row">
           <h2>
@@ -33,6 +39,7 @@
           </p>
         </div>
       </div>
+      <!--Likes column start-->
       <div class="col">
         <div class="row">
           <h2>
@@ -47,6 +54,7 @@
           </p>
         </div>
       </div>
+      <!--Photos column start-->
       <div class="col">
         <div class="row">
           <h2>
@@ -61,12 +69,18 @@
           </p>
         </div>
       </div>
+      <!--End stats columns-->
     </div>
+    <!--End second row-->
   </div>
+  <!--End container-->
+  <!--Start attribution-->
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://github.com/streetlightkids/profile-card-component-main">Nikki Klein</a>.
   </div>
+  <!--End attribution-->
+  <!--Add bootstrap JS-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 </body>
 </html>

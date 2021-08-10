@@ -1,10 +1,19 @@
+body{
+    max-width: 1440px;
+    background-color: hsl(185, 75%, 39%);
+    color: hsl(0, 0%, 59%);
+    font-size: 18px;
+}
 .container{
     max-width: 400px;
+    margin: auto;
+    text-align: center;
 }
-img #prof-pic{
-    max-width: 40px;
+#prof-pic{
+    max-width: 150px;
     border-radius: 50%;
     border: 3px solid white;
+    margin: auto;
 }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }

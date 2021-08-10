@@ -6,20 +6,25 @@ body{
     font-family: 'Kumbh Sans', sans-serif;
 }
 .container{
-    max-width: 400px;
-    margin: auto;
+    max-width: 800px;
+    margin: 0 auto;
     text-align: center;
     background-color: #fff;
     border-radius: 6px;
+    padding: 2rem;
+    position: relative;
+    z-index: 2;
 }
 .bg-img{
-background-attachment: fixed;
+    position: fixed;
 }
 #bg-top{
     background-position: left top;
+    z-index: 1;
 }
 #bg-btm{
     background-position: right bottom;
+    z-index: 1;
 }
 #prof-pic{
     max-width: 150px;

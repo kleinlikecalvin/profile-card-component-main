@@ -1,19 +1,38 @@
 body{
     max-width: 1440px;
     background-color: hsl(185, 75%, 39%);
-    color: hsl(0, 0%, 59%);
+    color: hsl(227, 10%, 46%);
     font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
 }
 .container{
     max-width: 400px;
     margin: auto;
     text-align: center;
+    background-color: #fff;
+    border-radius: 6px;
+}
+.bg-img{
+background-attachment: fixed;
+}
+#bg-top{
+    background-position: left top;
+}
+#bg-btm{
+    background-position: right bottom;
 }
 #prof-pic{
     max-width: 150px;
     border-radius: 50%;
     border: 3px solid white;
     margin: auto;
+}
+#bold{
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+}
+#stats-p{
+    letter-spacing: 2px;
 }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }

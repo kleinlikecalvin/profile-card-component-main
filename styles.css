@@ -1,43 +1,46 @@
 /* NEED TO/HELP WITH:
-1. How to better use SVGs
-2. How to do the top bg-color and bg-svg of the container
-3. How to place the gradient circles in the background more effectively
-4. I think I know how to make the profile pic be on top
-5. Add the top line for stats row
-6. Padding on everything
-7. Container box shadow
+1. the bg circle svg's seem like they're in a good place but I'm not sure how to crop them so they don't make the page expand all crazy
+2. The containers box-shadow isn't right
+3. the top of the container - I can't see the svg pattern
+4. Move profile pic to correct position
+5. Fix margin/padding overall but specifically in stats
+6. Mobile
+7. Readme
 */
 
 body{
     max-width: 1440px;
     background-color: hsl(185, 75%, 39%);
     color: hsl(0, 0%, 59%);
-    font-size: 18px;
     font-family: 'Kumbh Sans', sans-serif;
 }
+.bg-img{
+    position: absolute;
+}
+#bg-top{
+    margin-top: -505px;
+    margin-left: -290px;
+}
+#bg-btm{
+    margin-top: 340px;
+    margin-left: 700px;
+}
 .container{
-    max-width: 500px;
-    margin: auto;
+    max-width: 350px;
+    margin: 10rem auto;
     text-align: center;
     background-color: #fff;
     border-radius: 10px;
-    padding: 2rem;
     position: relative;
-    z-index: 2;
+    box-shadow: 0 0 20px hsl(227, 10%, 46%);
 }
-#container-top{
+.first-row{
     background-color: hsl(185, 75%, 39%);
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
 }
-.bg-img{
-    position: fixed;
-}
-#bg-top{
-    z-index: 1;
-
-}
-#bg-btm{
-    z-index: 1;
-
+#card-svg{
+    mix-blend-mode: multiply;
 }
 #prof-pic{
     max-width: 150px;
@@ -48,9 +51,26 @@ body{
 #bold{
     color: hsl(229, 23%, 23%);
     font-weight: 700;
+    font-size: 1.2rem;
+}
+#age{
+    font-size: 1.2rem;
+}
+h2{
+    font-size: 0.9rem;
+}
+.third-row{
+    border-top: 1px solid hsl(227, 10%, 46%);
 }
 #stats-p{
     letter-spacing: 2px;
+    font-size: 0.7rem;
 }
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: #212121;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}

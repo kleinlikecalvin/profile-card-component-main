@@ -44,14 +44,14 @@ body{
     overflow: hidden;
     border-radius: 10px 10px 0 0;
 }
-#card-svg{
-    mix-blend-mode: multiply;
+#prof-img-container{
+    position: relative;
 }
 #prof-pic{
     max-width: 150px;
     border-radius: 50%;
     border: 3px solid white;
-    margin: auto;
+    margin-top: -15%;
 }
 #bold{
     color: hsl(229, 23%, 23%);

@@ -56,7 +56,7 @@ body{
     max-width: 150px;
     border-radius: 50%;
     border: 3px solid white;
-    margin-top: -25%;
+    top: -40%;
 }
 #bold{
     color: var(--dark-blue);
@@ -73,7 +73,6 @@ h2{
     font-size: 0.9rem;
 }
 .third-row{
-   margin: 1rem;
    padding: 1rem;
    padding-bottom: 0;
 }
@@ -91,25 +90,21 @@ h2{
 }
 /* MOBILE VERSION */
 @media screen and (max-width: 1370px){
-    body{
-        max-width: 375px;
-    }
     #bg-top{
-        top: -10rem;
-        margin-left: -20rem;
+        top: -15rem;
+        left: -20rem;
     }
     #bg-btm{
-        margin-top: 13rem;
-        margin-left: 42rem;
+        top: 13rem;
+        left: 42rem;
     }
     .container{
         max-width: 350px;
-        margin: 10rem auto;
-        position: relative;
+        margin: 3rem auto;
         box-shadow: 0 0 5em -1.5em var(--dark-blue);
     }
     #prof-pic{
-        margin-top: -25%;
+        top: -25%;
     }
     #bold{
         font-size: 1.2rem;
@@ -124,7 +119,6 @@ h2{
         font-size: 0.9rem;
     }
     .third-row{
-       margin: 1rem;
        padding: 1rem;
        padding-bottom: 0;
     }

@@ -7,6 +7,9 @@
 6. Mobile
 7. Readme
 */
+
+
+/* DESKTOP VERSION */
 html{
     --dark-cyan: hsl(185, 75%, 39%);
     --dark-blue: hsl(229, 23%, 23%);
@@ -18,16 +21,17 @@ body{
     background-color: var(--dark-cyan);
     color: var(--dark-gray);
     font-family: 'Kumbh Sans', sans-serif;
+    position: relative;
 }
 .bg-img{
     position: absolute;
 }
 #bg-top{
-    margin-top: -505px;
+    margin-top: -43rem;
     margin-left: -290px;
 }
 #bg-btm{
-    margin-top: 340px;
+    margin-top: 13rem;
     margin-left: 700px;
 }
 .container{
@@ -84,6 +88,7 @@ h2{
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+/* MOBILE VERSION */
 @media screen and (max-width: 1370px){
     body{
         max-width: 375px;

@@ -37,7 +37,7 @@ body{
     background-color: #fff;
     border-radius: 10px;
     position: relative;
-    box-shadow: 0 0 20px var(--dark-grayish-blue);
+    box-shadow: 0 0 5em -1.5em var(--dark-blue);
 }
 .first-row{
     background-color: var(--dark-cyan);

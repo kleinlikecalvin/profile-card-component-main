@@ -1,9 +1,9 @@
 /* NEED TO/HELP WITH:
 1. the bg circle svg's seem like they're in a good place but I'm not sure how to crop them so they don't make the page expand all crazy
-2. The containers box-shadow isn't right
+
 3. the top of the container - I can't see the svg pattern
 
-5. Fix margin/padding overall but specifically in stats
+
 6. Mobile
 7. Readme
 */
@@ -69,6 +69,8 @@ h2{
 }
 .third-row{
    margin: 1rem;
+   padding: 1rem;
+   padding-bottom: 0;
 }
 #stats-p{
     letter-spacing: 2px;

@@ -28,12 +28,12 @@ body{
     position: absolute;
 }
 #bg-top{
-    margin-top: -43rem;
-    margin-left: -18rem;
+    top: -43rem;
+    left: -18rem;
 }
 #bg-btm{
-    margin-top: 13rem;
-    margin-left: 42rem;
+    top: 13rem;
+    left: 42rem;
 }
 .container{
     max-width: 350px;
@@ -95,12 +95,12 @@ h2{
         max-width: 375px;
     }
     #bg-top{
-        margin-top: -505px;
-        margin-left: -290px;
+        top: -10rem;
+        margin-left: -20rem;
     }
     #bg-btm{
-        margin-top: 340px;
-        margin-left: 700px;
+        margin-top: 13rem;
+        margin-left: 42rem;
     }
     .container{
         max-width: 350px;

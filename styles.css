@@ -22,17 +22,18 @@ body{
     color: var(--dark-gray);
     font-family: 'Kumbh Sans', sans-serif;
     position: relative;
+    overflow: hidden;
 }
 .bg-img{
     position: absolute;
 }
 #bg-top{
     margin-top: -43rem;
-    margin-left: -290px;
+    margin-left: -18rem;
 }
 #bg-btm{
     margin-top: 13rem;
-    margin-left: 700px;
+    margin-left: 42rem;
 }
 .container{
     max-width: 350px;
@@ -92,9 +93,6 @@ h2{
 @media screen and (max-width: 1370px){
     body{
         max-width: 375px;
-    }
-    .bg-img{
-        position: absolute;
     }
     #bg-top{
         margin-top: -505px;

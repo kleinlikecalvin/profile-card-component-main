@@ -84,3 +84,49 @@ h2{
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+@media screen and (max-width: 1370px){
+    body{
+        max-width: 375px;
+    }
+    .bg-img{
+        position: absolute;
+    }
+    #bg-top{
+        margin-top: -505px;
+        margin-left: -290px;
+    }
+    #bg-btm{
+        margin-top: 340px;
+        margin-left: 700px;
+    }
+    .container{
+        max-width: 350px;
+        margin: 10rem auto;
+        position: relative;
+        box-shadow: 0 0 5em -1.5em var(--dark-blue);
+    }
+    #prof-pic{
+        margin-top: -25%;
+    }
+    #bold{
+        font-size: 1.2rem;
+    }
+    #age{
+        font-size: 1.2rem;
+    }
+    .second-row{
+        margin: 1rem;
+    }
+    h2{
+        font-size: 0.9rem;
+    }
+    .third-row{
+       margin: 1rem;
+       padding: 1rem;
+       padding-bottom: 0;
+    }
+    #stats-p{
+        letter-spacing: 2px;
+        font-size: 0.7rem;
+    }
+}

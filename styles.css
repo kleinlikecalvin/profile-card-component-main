@@ -51,7 +51,7 @@ body{
     max-width: 150px;
     border-radius: 50%;
     border: 3px solid white;
-    top: -40%;
+    margin-top: -70px;
 }
 #bold{
     color: var(--dark-blue);

@@ -1,8 +1,4 @@
 /* NEED TO/HELP WITH:
-
-3. the top of the container - I can't see the svg pattern
-
-
 6. Mobile
 7. Readme
 */
@@ -43,16 +39,14 @@ body{
     position: relative;
     box-shadow: 0 0 5em -1.5em var(--dark-blue);
 }
-.first-row{
+.user-header-img-container{
     background-color: var(--dark-cyan);
     overflow: hidden;
     border-radius: 10px 10px 0 0;
-
 }
 .user-header-img{
     object-fit: cover;
     width: 100%;
-    padding: 0;
 }
 #prof-pic{
     max-width: 150px;

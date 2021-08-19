@@ -1,5 +1,4 @@
 /* NEED TO/HELP WITH:
-1. the bg circle svg's seem like they're in a good place but I'm not sure how to crop them so they don't make the page expand all crazy
 
 3. the top of the container - I can't see the svg pattern
 
@@ -48,9 +47,11 @@ body{
     background-color: var(--dark-cyan);
     overflow: hidden;
     border-radius: 10px 10px 0 0;
+
 }
-#prof-img-container{
-    position: relative;
+.user-header-img{
+ object-fit: cover;
+ width: 100%;
 }
 #prof-pic{
     max-width: 150px;

@@ -1,0 +1,101 @@
+/* NEED TO/HELP WITH:
+1. change to bg-img in css - check to see if you can figure out how to position - get nate involved if need be
+2. dl, dd, dt for stats
+6. Mobile
+7. Readme
+*/
+
+/* DESKTOP VERSION */
+html{
+    --dark-cyan: hsl(185, 75%, 39%);
+    --dark-blue: hsl(229, 23%, 23%);
+    --dark-grayish-blue: hsl(227, 10%, 46%);
+    --dark-gray: hsl(0, 0%, 59%);
+}
+body{
+    max-width: 1440px;
+    background-color: var(--dark-cyan);
+    color: var(--dark-gray);
+    font-family: 'Kumbh Sans', sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+.bg-img{
+    position: absolute;
+}
+#bg-top{
+    margin-top: -43rem;
+    margin-left: -18rem;
+}
+#bg-btm{
+   margin-top: 13rem;
+    margin-left: 42rem;
+}
+.container{
+    max-width: 350px;
+    margin: 10rem auto;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 0 5em -1.5em var(--dark-blue);
+}
+.header-img-container{
+    background-color: var(--dark-cyan);
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+    padding: 0;
+}
+.user-header-img{
+    padding: 0;
+}
+#prof-pic{
+    max-width: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-top: -70px;
+}
+#bold{
+    color: var(--dark-blue);
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+#age{
+    font-size: 1.2rem;
+}
+.second-row{
+    margin: 1rem;
+}
+h2{
+    font-size: 0.9rem;
+}
+.third-row{
+   padding: 1rem;
+   padding-bottom: 0;
+   border-top: 1px solid hsla(0, 0%, 59%, 0.3);
+}
+#stats-p{
+    letter-spacing: 2px;
+    font-size: 0.7rem;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: #212121;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+/* MOBILE VERSION */
+@media screen and (max-width: 1370px){
+    .bg-img{
+        margin: unset;
+    }
+    #bg-top{
+        margin-left: -48rem;
+    }
+    #bg-btm{
+        margin-top: 130px;
+        margin-left: 200px;
+    }
+}

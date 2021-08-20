@@ -3,34 +3,105 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <!--Add Bootstrap-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <!--Link Favicon-->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <!--Link Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <!--Link CSS-->
+  <link rel="stylesheet" href="./styles.css">
   <title>Frontend Mentor | Profile card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-  Victor Crest
-  26
-  London
-
-  80K
-  Followers
-
-  803K
-  Likes
-
-  1.4K
-  Photos
+  <!--Background SVG top left gradient circle-->   
+  <img src="./images/bg-pattern-top.svg" alt="" class="bg-img" id="bg-top">
+  <!--Background SVG bottom right gradient circle-->
+  <img src="./images/bg-pattern-bottom.svg" alt="" class="bg-img" id="bg-btm">
+<!--Create container-->
+  <div class="container">
+    <!--Start first row which houses the profile pic, name, age, and location-->
+    <div class="row header-img-container">
+      <!--Top of container pattern-->
+      <img src="./images/bg-pattern-card.svg" class="user-header-img">
+    <!--end first row-->
+    </div>
+    <!--start second row-->
+    <div class="row second-row">
+      <div id="prof-img-container">
+        <img src="./images/image-victor.jpg" alt="Victor Profile Avatar" id="prof-pic">
+      </div>
+      <h1>
+        <span id="bold">Victor Crest </span>
+        <span id="age">26</span>
+      </h1>
+      <h2>
+        London
+      </h2>
+    </div>     
+    <!--End second row-->
+    <!--Start third row which houses the stats columns-->
+    <div class="row third-row">
+      <!--Followers column start-->
+      <div class="col">
+        <div class="row">
+          <h3>
+            <span id="bold">
+              80K
+            </span>
+          </h3>
+        </div>
+        <div class="row">
+          <p id="stats-p">
+            Followers
+          </p>
+        </div>
+      </div>
+      <!--Likes column start-->
+      <div class="col">
+        <div class="row">
+          <h3>
+            <span id="bold">
+              803K
+            </span>
+          </h3>
+        </div>
+        <div class="row">
+          <p id="stats-p">
+            Likes
+          </p>
+        </div>
+      </div>
+      <!--Photos column start-->
+      <div class="col">
+        <div class="row">
+          <h3>
+            <span id="bold">
+              1.4K
+            </span>
+          </h3>
+        </div>
+        <div class="row">
+          <p id="stats-p">
+            Photos
+          </p>
+        </div>
+      </div>
+      <!--End stats columns-->
+    </div>
+    <!--End second row-->
+  </div>
+  <!--End container-->
+  <!--Start attribution-->
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://github.com/streetlightkids/profile-card-component-main">Nikki Klein</a>.
   </div>
+  <!--End attribution-->
+  <!--Add bootstrap JS-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 </body>
 </html>

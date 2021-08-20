@@ -1,4 +1,6 @@
 /* NEED TO/HELP WITH:
+1. change to bg-img in css
+2. dl, dd, dt for stats
 6. Mobile
 7. Readme
 */
@@ -50,7 +52,7 @@ body{
 #prof-pic{
     max-width: 150px;
     border-radius: 50%;
-    border: 3px solid white;
+    border: 5px solid white;
     margin-top: -70px;
 }
 #bold{
@@ -70,6 +72,7 @@ h2{
 .third-row{
    padding: 1rem;
    padding-bottom: 0;
+   border-top: 1px solid hsla(0, 0%, 59%, 0.3);
 }
 #stats-p{
     letter-spacing: 2px;

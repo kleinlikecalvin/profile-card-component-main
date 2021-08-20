@@ -1,5 +1,5 @@
 /* NEED TO/HELP WITH:
-1. change to bg-img in css
+1. change to bg-img in css - check to see if you can figure out how to position - get nate involved if need be
 2. dl, dd, dt for stats
 6. Mobile
 7. Readme
@@ -89,39 +89,10 @@ h2{
 /* MOBILE VERSION */
 @media screen and (max-width: 1370px){
     #bg-top{
-        top: -15rem;
-        left: -20rem;
+        left: 1px;
     }
     #bg-btm{
-        top: 13rem;
-        left: 42rem;
-    }
-    .container{
-        max-width: 350px;
-        margin: 3rem auto;
-        box-shadow: 0 0 5em -1.5em var(--dark-blue);
-    }
-    #prof-pic{
-        top: -25%;
-    }
-    #bold{
-        font-size: 1.2rem;
-    }
-    #age{
-        font-size: 1.2rem;
-    }
-    .second-row{
-        margin: 1rem;
-    }
-    h2{
-        font-size: 0.9rem;
-    }
-    .third-row{
-       padding: 1rem;
-       padding-bottom: 0;
-    }
-    #stats-p{
-        letter-spacing: 2px;
-        font-size: 0.7rem;
+        top: 130px;
+        left: 200px;
     }
 }

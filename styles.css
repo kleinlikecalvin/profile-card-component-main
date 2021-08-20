@@ -24,7 +24,7 @@ body{
     position: absolute;
 }
 #bg-top{
-    margin-top: -200px;
+    margin-top: -43rem;
     margin-left: -18rem;
 }
 #bg-btm{
@@ -88,8 +88,11 @@ h2{
 }
 /* MOBILE VERSION */
 @media screen and (max-width: 1370px){
+    .bg-img{
+        margin: unset;
+    }
     #bg-top{
-        margin-left: -10px;
+        margin-left: -48rem;
     }
     #bg-btm{
         margin-top: 130px;

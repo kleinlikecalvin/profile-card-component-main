@@ -1,10 +1,3 @@
-/* NEED TO/HELP WITH:
-1. change to bg-img in css - check to see if you can figure out how to position - get nate involved if need be
-2. dl, dd, dt for stats
-6. Mobile
-7. Readme
-*/
-
 /* DESKTOP VERSION */
 html{
     --dark-cyan: hsl(185, 75%, 39%);
@@ -34,6 +27,7 @@ body{
 .container{
     max-width: 350px;
     margin: 10rem auto;
+    margin-bottom: 1rem;
     text-align: center;
     background-color: #fff;
     border-radius: 10px;

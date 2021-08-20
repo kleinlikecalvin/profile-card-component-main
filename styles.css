@@ -24,12 +24,12 @@ body{
     position: absolute;
 }
 #bg-top{
-    top: -43rem;
-    left: -18rem;
+    margin-top: -200px;
+    margin-left: -18rem;
 }
 #bg-btm{
-    top: 13rem;
-    left: 42rem;
+   margin-top: 13rem;
+    margin-left: 42rem;
 }
 .container{
     max-width: 350px;
@@ -89,10 +89,10 @@ h2{
 /* MOBILE VERSION */
 @media screen and (max-width: 1370px){
     #bg-top{
-        left: 1px;
+        margin-left: -10px;
     }
     #bg-btm{
-        top: 130px;
-        left: 200px;
+        margin-top: 130px;
+        margin-left: 200px;
     }
 }

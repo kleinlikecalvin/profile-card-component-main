@@ -55,12 +55,12 @@ body{
     border: 5px solid white;
     margin-top: -70px;
 }
-#bold{
+.bold{
     color: var(--dark-blue);
     font-weight: 700;
     font-size: 1.2rem;
 }
-#age{
+.age{
     font-size: 1.2rem;
 }
 .second-row{
@@ -74,7 +74,7 @@ h2{
    padding-bottom: 0;
    border-top: 1px solid hsla(0, 0%, 59%, 0.3);
 }
-#stats-p{
+.stats-p{
     letter-spacing: 2px;
     font-size: 0.7rem;
 }
